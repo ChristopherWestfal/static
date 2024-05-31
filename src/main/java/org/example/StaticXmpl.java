@@ -2,7 +2,7 @@ package org.example;
 
 public class StaticXmpl {
 
-    static int totalCount;
+    private static int totalCount;
     private int instanceCount;
 
     public static void incrementTotalCount() {
